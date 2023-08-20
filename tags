@@ -1,0 +1,6 @@
+JapaneseFunction	src/main.c	/^void	JapaneseFunction(char *str)$/
+Mmain	src/main.c	/^int	main(int argc, char *argv[])$/
+add	src/main.c	/^int	add(int a, int b)$/
+JapaneseFunction	src/japanesefunction.c	/^void	JapaneseFunction(char *str)$/
+Mmain	src/main.c	/^int	main(int argc, char *argv[])$/
+add	src/add.c	/^int	add(int a, int b)$/
