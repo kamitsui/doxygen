@@ -1,15 +1,20 @@
 ### How to use Doxygen
-
-1. Install Doxygen
-> ```下書き```
->
+1. Install from Homebrew
+> ```brew install doxygen```
 2. create doxyfile
-> ```下書き```
+> ```doxygen -g```
 >
-3. Run Doxygen
-> ```下書き```
+3. edit the configuration file (Default file name : doxyfile)
 >
-4. Open index.html
-> ```下書き```
+4. Run Doxygen
+> ```doxygen```
 >
-> [サンプル](https://kamitsui.github.io/doxygen/out_doxy/html/files.html)
+5. Open index.html
+> ```open -a Google\ Chrome out_doxy/html/index.html```
+>
+6. View the Document (index.html)
+> [index.html](https://kamitsui.github.io/doxygen/out_doxy/html/files.html)
+
+
+Reference
+> [doxygen.nl](https://www.doxygen.nl/manual/doxygen_usage.html)
